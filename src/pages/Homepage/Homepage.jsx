@@ -1,4 +1,4 @@
-import './Homepage.css'
+import "./Homepage.css";
 import React, { useEffect, useState } from "react";
 
 export default function Homepage() {
@@ -7,9 +7,7 @@ export default function Homepage() {
       <div className="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
         <div className="col-md-6 p-lg-5 mx-auto my-5">
           <h1 className="display-4 font-weight-normal">Oddity Oasis</h1>
-          <p className="lead font-weight-normal">
-           Stay tuned for more!"
-          </p>
+          <p className="lead font-weight-normal">Stay tuned for more!"</p>
           <a className="btn btn-outline-secondary" href="#">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -29,7 +27,7 @@ export default function Homepage() {
         <div className="product-device box-shadow "></div>
         <div className="product-device product-device-2 box-shadow"></div>
       </div>
-{/* 
+      {/* 
       <div className="d-md-flex flex-md-fill w-100 my-md-3 pl-md-3">
         <div className="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
           <div className="my-3 py-3">

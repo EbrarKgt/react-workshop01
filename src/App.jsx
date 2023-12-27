@@ -15,6 +15,7 @@ function App() {
     <Navbar />
     <BrowserRouter>
     <Routes>
+    <Route path = "/" element = {<Homepage />}>/</Route>
       <Route path = "/homepage" element = {<Homepage />}>/</Route>
       <Route path = "/about" element = {<About />}>/</Route>
       <Route path="/product-detail/:productId" element={<ProductDetails />} />

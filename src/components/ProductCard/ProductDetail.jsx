@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import './ProductDetail.css'
 
 export default function ProductDetails() {
   const { productId } = useParams();
